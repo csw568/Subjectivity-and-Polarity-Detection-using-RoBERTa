@@ -1,5 +1,5 @@
 ## Overview
-The classification approach was to use RoBERTa models for subjectivity detection and polarity detection. Separate models were built and trained using the combination of Stamford Sentiment Treebank (SST-5) and Financial Phrasebank datasets. These datasets are chosen as they contain positive, neutral, and negative sentiments, allowing for subjectivity and polarity detection. The subjectivity model achieved Validation Accuracy of 0.7824, Precision of 0.7909, Recall of 0.7824, and F1-Score of 0.7856. 
+The classification approach was to use RoBERTa models for subjectivity detection and polarity detection. Separate models were built and trained using the combination of Stamford Sentiment Treebank (SST-5) and Financial Phrasebank datasets. These datasets are chosen as they contain positive, neutral, and negative sentiments, allowing for subjectivity and polarity detection. The subjectivity model achieved Validation Accuracy of 0.7824 and F1-Score of 0.7856, while the polarity model achieved Validation Accuracy of 0.9384 and F1-Score of 0.9384. 
 
 
 ### Dependencies to install before running: 
